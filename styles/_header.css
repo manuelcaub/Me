@@ -1,0 +1,25 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: lightgrey;
+  background-color: white;
+  color: #0077B5;
+}
+
+.header__title {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.header__photo {
+  margin-left: 300px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
